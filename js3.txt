@@ -1,0 +1,123 @@
+/*
+var a = 50;
+
+if(a === 4){
+    console.log (`correct ${a}`)
+}else{
+    console.log("check data type")
+}
+
+var food= "eba"
+if(food ===  "rice"){
+    console.log(`buy me ${food}`)
+
+}else if (food=== "beans"){
+    console.log(`buy me ${food}`)
+
+}else if (food=== "poundedyam"){
+    console.log(`buy me ${food}`)
+}
+
+
+/*
+>= 75 ="excellent"
+>=60 and <=74 ="very good"
+>=50 and <=59 ="good"
+>=40 and <=49="pass"
+<40 = "failed"
+*/
+
+/*
+var score = 75;
+
+if (score >= 75){
+console.log("excellent")
+
+}else if(score>= 60&& score <=74){
+    console.log("very good")
+    
+}else if (score>=50 && score <= 59){
+    console.log("good")
+    
+}else if (score>=40 && score <= 49){
+    console.log("pass")
+
+}else{
+    console.log("failed")
+}
+
+var x =8;
+var y = 58;
+
+if (x === 8 || y === 5  ){
+    console.log("correct")
+
+}else{
+    console.log("data did not match")
+} 
+
+var role = "admin"
+if(role != "admin" ){
+    console.log("only admins can perform this operation")
+
+}else{
+    console.log("no way")
+}
+*/
+/*
+var day = 1;
+
+switch (day){
+    case 1:
+        console.log("today is monday")
+        break;
+     case 2:
+         console.log("today is tuesday")
+
+
+break;
+     case 3:
+          console.log("today is wednesday")
+          break;
+      case 4:
+         console.log("today is thursday")
+         break;
+      case 5:
+         console.log("today is friday")
+         break;
+      case 6:
+         console.log("today is saturday")
+         break;
+      case 7:
+            console.log("today is sunday")
+}
+*/
+/*
+function calculation(){
+    return(2+2)
+}
+    console.log(calculation ())
+
+function studentInfo (title, name, score,){
+
+    console.log(`Goodday ${title}, ${name}, your result is ${score},`)
+}
+
+studentInfo("miss" ,"bola", 56,)
+studentInfo("mr", "kunle", 78,)
+studentInfo("miss","dammy", 67, )
+*/
+
+
+function AOC(r){
+    console.log(Math.PI * Math. pow (r,2) )
+}
+AOC(3)
+
+function F2C(f){
+    console.log( f - 32 * 5 / 9)
+}
+
+F2C(45)
+
+

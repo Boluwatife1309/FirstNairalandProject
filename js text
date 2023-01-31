@@ -1,0 +1,29 @@
+let arg= [3, 5, true,false, "hello" ]
+arg.push("+")
+arg.push(4)
+
+
+var data = []
+
+for (var a = 1; a <= 10; a+=2){
+data.push(a)
+}
+console.log(eval(data.join("+")))
+
+var b = 0
+while(b < 20){
+data.push(a)
+b+=2
+}                 
+console.log(eval(data.join("+")))
+0
+do{
+    data.push(c);
+    c+=2
+}while( c < 20)
+
+
+for ( var a=1;  a < 30;  a+=2){
+data.push(a)
+}
+console.log(eval(data.join("+")))
